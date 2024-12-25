@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+ }
+ .navbar-nav .container-fluid{
+    position: fixed;
+ }
+ .footer .profile{
+          margin-left: 1000px;
+        margin-top:-180px;
+        }
+.footer .profile .insta{
+    margin-left: -100px;
+    margin-top: 20px;
+    padding: 1px;
+}
+.footer .profile .face{
+    margin-left: -100px;
+    margin-top: 20px;
+    padding: 1px;
+}
+.footer .profile .app{
+    margin-left: -100px;
+    margin-top: 20px;
+    padding: 1px;
+}
+.footer .profile .in{
+    margin-left: -100px;
+    margin-top: 20px;
+    padding: 1px;
+}
+ .footer p{
+    margin-left:100px;
+    position: relative;
+ }
+ .footer img{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    margin-left: 100px;
+ }
+ .footer h5{
+    margin-left:100px;
+ }
+ .footer{
+    background-color: slategray;
+    color: #ffff;
+    height: 300px;
+    width: 100%;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+ }
+ .gallery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-color: teal;
+  }
+  .gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 30px;
+    padding: 20px;
+    scrollbar-width: none; 
+  }
+  .gallery::-webkit-scrollbar {
+    display: none; 
+  }
+  .gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    padding: 10px;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+  }
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+ .gal{
+    margin-top: 400px;
+ }
+ .gal h1{
+    clear: both;
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+ }
+.about .typewrite img{
+    float: right;
+    width:40%;
+    margin-top: 15px;
+    height:350px;
+    position: relative;
+    padding: 1px;
+    border: 10px solid white;
+    margin-right:60px;
+}
+.about{
+    background:linear-gradient(grey,darkgrey);
+    width: 100%;
+    position: absolute;
+}
+.typewrite p{
+    color: white;
+    width: 50%;
+    text-align: justify;
+    margin-left:25px;
+    letter-spacing: .15em; 
+    padding-top: 5px;
+    float: left;
+}
+iframe{
+    width: 100%;
+}
+body .map{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding:5px;
+    width: 100%;
+}
+body .map .copy{
+    float: right;
+    height: 450px;
+    width: 40%;
+    margin-right: 40px;
+}
+.container-fluid .dropdown-menu li a:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+#banner{
+    background-color: slategray;
+    width: 100%;
+    position:fixed;
+    height: 80px;
+    margin-top: -85px;
+    z-index: 3;
+    color: white;
+}
+.container-fluid .navbar-nav{
+    margin-left:300px;
+    color: white;
+}
+.container-fluid .navbar-nav .nav-item{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.container-fluid .img{
+     width:40px;
+     height: 40px;
+     margin-left: 30px;
+     border-radius: 50%;
+}
+.back h1{
+    text-align: center;
+    margin-top: 15px;
+    padding-top:15px;
+}
+
+.back p{
+    text-align: justify;
+    padding: 13px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.back{
+   background-image: url("back4.jpg");
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 80%;
+   margin-top: 80px;
+   clear: both;
+}
+.top h1{
+    text-align: center;
+    font-size:100px;
+    font-weight: 600;
+}
+.row .card1{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 100px;
+    height: fit-content;
+    border-radius: 10px;
+    
+}
+.row .card1:hover{
+    z-index: 2;
+    transform: scale(1.1);
+    transition-duration:1.5s;
+    cursor: pointer;
+}
+.row .card2:hover{
+    z-index: 2;
+    transform: scale(1.1);
+    transition-duration:1.5s;
+    cursor: pointer;
+}
+.row .card3:hover{
+    z-index: 2;
+    transform: scale(1.1);
+    transition-duration:1.5s;
+    cursor: pointer;
+}
+.row .card4:hover{
+    z-index: 2;
+    transform: scale(1.1);
+    transition-duration:1.5s;
+    cursor: pointer;
+}
+.row .card5:hover{
+    z-index: 2;
+    transform: scale(1.1);
+    transition-duration:1.5s;
+    cursor: pointer;
+}
+.row .card6:hover{
+    z-index: 2;
+    transform: scale(1.1);
+    transition-duration:1s;
+    cursor: pointer;
+}
+.row .card1 .card-body img{
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+}
+
+
+.row .card2 .card-body img{
+    height: 22px;
+    width: 22px;
+}
+.row .card3 .card-body img{
+    height: 22px;
+    width: 22px;
+}
+.row .card4 .card-body img{
+    height: 22px;
+    width: 22px;
+}
+.row .card5 .card-body img{
+    height: 22px;
+    width: 22px;
+}
+.row .card6 .card-body img{
+    height: 22px;
+    width: 22px;
+    
+}
+
+.row .card2{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 50px;
+    height: fit-content;
+    border-radius: 10px;
+}
+.row .card3{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+    height: fit-content;
+    border-radius: 10px;
+}
+.row{
+    margin-left: 100px;
+}
+.row .card4{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 100px;
+    height: fit-content;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.row .card5{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 50px;
+    height: fit-content;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.row .card6{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+    height: fit-content;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.row .card-body .mon{
+    margin-left: 50px;
+}
